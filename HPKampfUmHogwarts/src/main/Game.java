@@ -5,6 +5,11 @@ import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 
+import gfx.Assets;
+import gfx.Display;
+import states.GameState;
+import states.State;
+
 public class Game implements Runnable {
 	
 	private Display display;

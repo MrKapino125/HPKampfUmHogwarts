@@ -1,6 +1,8 @@
-package main;
+package states;
 
 import java.awt.Graphics;
+
+import gfx.Assets;
 
 public class GameState extends State {
 	
@@ -9,7 +11,7 @@ public class GameState extends State {
 	}
 	
 	public void tick() {
-			
+		
 	}
 
 	public void render(Graphics g) {
