@@ -5,7 +5,7 @@ import java.awt.Graphics;
 import gfx.Assets;
 import main.Player;
 
-public class Card {
+public class Card implements CardInterface {
 	protected int price;
 	protected int typeID;
 	protected String type;
@@ -29,6 +29,9 @@ public class Card {
 	}
 	public void draw(Graphics g, int posX, int posY) {
 		g.drawImage(Assets.enemies.get(this.renderID), posX, posY, null);
+	}
+	public void use(Player[] players) {
+		
 	}
 
 }
