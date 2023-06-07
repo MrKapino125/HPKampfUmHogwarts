@@ -5,7 +5,7 @@ import main.Player;
 public class BeedleDemBarden extends Card implements CardInterface{
 
 	public BeedleDemBarden() {
-		super(0, 1);
+		super(0, 1, 2);
 		// TODO Auto-generated constructor stub
 	}
 

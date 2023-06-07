@@ -1,12 +1,14 @@
 package main;
 
+import java.util.Stack;
+
 import cards.Card;
 
 public class Player {
 	private String name;
 	private Character character;
 	private Card[] hand;
-	private Card[] deck;
+	private Stack<Card> deck;
 	private Card[] discard;
 	private int lightning;
 	private int coin;

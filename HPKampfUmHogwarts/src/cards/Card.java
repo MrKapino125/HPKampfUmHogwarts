@@ -6,18 +6,23 @@ public class Card {
 	protected int price;
 	protected int typeID;
 	protected String type;
+	protected int renderID;
 	
-	public Card(int price, int id) {
+	public Card(int price, int typeID, int renderID) {
 		this.price = price;
-		typeID = id;
-		if (id == 0)
+		this.typeID = typeID;
+		this.renderID = renderID;
+		if (typeID == 0)
 			type = "Spruch";
-		if (id == 1)
+		if (typeID == 1)
 			type = "Gegenstand";
-		if (id == 2)
+		if (typeID == 2)
 			type = "Verbündeter";
 	}
 	public void discard(Player[] players) {
+		
+	}
+	public void render(Card card) {
 		
 	}
 

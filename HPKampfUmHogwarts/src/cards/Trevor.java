@@ -5,7 +5,7 @@ import main.Player;
 public class Trevor extends Card implements CardInterface{
 
 	public Trevor() {
-		super(0, 2);
+		super(0, 2, 8);
 		// TODO Auto-generated constructor stub
 	}
 

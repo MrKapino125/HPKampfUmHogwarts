@@ -5,7 +5,7 @@ import main.Player;
 public class Hedwig extends Card implements CardInterface{
 
 	public Hedwig() {
-		super(0, 2);
+		super(0, 2, 5);
 		// TODO Auto-generated constructor stub
 	}
 

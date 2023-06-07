@@ -5,7 +5,7 @@ import main.Player;
 public class Alraune extends Card implements CardInterface {
 
 	public Alraune() {
-		super(0, 1);
+		super(0, 1, 1);
 		// TODO Auto-generated constructor stub
 	}
 

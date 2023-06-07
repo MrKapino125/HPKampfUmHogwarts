@@ -5,7 +5,7 @@ import main.Player;
 public class Feuerblitz extends Card implements CardInterface {
 
 	public Feuerblitz() {
-		super(0, 1);
+		super(0, 1, 4);
 		// TODO Auto-generated constructor stub
 	}
 
