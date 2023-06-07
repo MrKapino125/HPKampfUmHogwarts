@@ -13,6 +13,7 @@ public class Assets {
 	
 	public static void init() {
 		SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("/Enemy/test.png"));
+		enemies = new ArrayList<BufferedImage>();
 		
 		enemies.add(sheet.crop(0, 0, width, height));
 		enemies.add(sheet.crop(width, 0, width, height));
