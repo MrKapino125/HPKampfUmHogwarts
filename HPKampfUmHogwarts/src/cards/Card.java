@@ -1,5 +1,8 @@
 package cards;
 
+import java.awt.Graphics;
+
+import gfx.Assets;
 import main.Player;
 
 public class Card {
@@ -7,6 +10,8 @@ public class Card {
 	protected int typeID;
 	protected String type;
 	protected int renderID;
+	protected static int width = 250;
+	protected static int height = 250;
 	
 	public Card(int price, int typeID, int renderID) {
 		this.price = price;
@@ -22,8 +27,8 @@ public class Card {
 	public void discard(Player[] players) {
 		
 	}
-	public void render(Card card) {
-		
+	public void draw(Graphics g, int posX, int posY) {
+		g.drawImage(Assets.enemies.get(this.renderID), posX, posY, null);
 	}
 
 }

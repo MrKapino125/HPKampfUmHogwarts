@@ -11,7 +11,7 @@ public class MenuState extends State {
 	}
 	
 	public void tick() {
-			
+		
 	}
 
 	public void render(Graphics g) {
