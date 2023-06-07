@@ -1,5 +1,7 @@
-package cards;
+package hogwarts;
 
+import cards.Card;
+import cards.CardInterface;
 import main.Player;
 
 public class BeedleDemBarden extends Card implements CardInterface{

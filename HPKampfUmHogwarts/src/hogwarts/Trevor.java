@@ -1,11 +1,13 @@
-package cards;
+package hogwarts;
 
+import cards.Card;
+import cards.CardInterface;
 import main.Player;
 
-public class Hedwig extends Card implements CardInterface{
+public class Trevor extends Card implements CardInterface{
 
-	public Hedwig() {
-		super(0, 2, 5);
+	public Trevor() {
+		super(0, 2, 8);
 		// TODO Auto-generated constructor stub
 	}
 
