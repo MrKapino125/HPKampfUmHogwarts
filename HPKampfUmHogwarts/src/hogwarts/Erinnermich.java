@@ -7,7 +7,7 @@ import main.Player;
 public class Erinnermich extends Card implements CardInterface {
 
 	public Erinnermich() {
-		super(0, 1, 3);
+		super(0, 1, "Erinnermich");
 		// TODO Auto-generated constructor stub
 	}
 

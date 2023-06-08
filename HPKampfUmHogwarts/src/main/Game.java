@@ -5,8 +5,10 @@ import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 
+import cards.Card;
 import gfx.Assets;
 import gfx.Display;
+import hogwarts.Alohomora;
 import states.GameState;
 import states.State;
 
@@ -21,6 +23,8 @@ public class Game implements Runnable {
 	
 	private BufferStrategy bs;
 	private Graphics g;
+	
+	private Player[] players;
 	
 	//States
 	private State gameState;
@@ -37,6 +41,13 @@ public class Game implements Runnable {
 		
 		gameState = new GameState();
 		State.setState(gameState);
+		
+		// test code remove after
+		Player player1 = new Player("Matthias", new Character(0));
+		Player player2 = new Player("Matthias", new Character(0));
+		players = new Player[2];
+		players[0] = player1;
+		players[1] = player2;
 	}
 	
 	private void tick() {
@@ -119,4 +130,5 @@ public class Game implements Runnable {
 			e.printStackTrace();
 		}
 	}
+	
 }

@@ -7,7 +7,7 @@ import main.Player;
 public class Alohomora extends Card implements CardInterface{
 
 	public Alohomora() {
-		super(0, 0, 0);
+		super(0, 0, "Alohomora");
 		// TODO Auto-generated constructor stub
 	}
 

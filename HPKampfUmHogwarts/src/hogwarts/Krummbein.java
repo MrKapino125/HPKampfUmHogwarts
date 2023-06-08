@@ -7,7 +7,7 @@ import main.Player;
 public class Krummbein extends Card implements CardInterface{
 
 	public Krummbein() {
-		super(0, 2, 6);
+		super(0, 2, "Krummbein");
 		// TODO Auto-generated constructor stub
 	}
 

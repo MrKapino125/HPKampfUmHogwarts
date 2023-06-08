@@ -22,7 +22,7 @@ public class Player {
 		this.name = name;
 		this.character = character;
 		hand = new ArrayList<Card>();
-		deck = new Stack<Card>();
+		deck = this.character.createDeck();
 		discard = new ArrayList<Card>();
 	}
 	public void giveCoins(int n) {

@@ -7,7 +7,7 @@ import main.Player;
 public class Sauberwisch11 extends Card implements CardInterface{
 
 	public Sauberwisch11() {
-		super(0, 1, 12);
+		super(0, 1, "Sauberwisch11");
 		// TODO Auto-generated constructor stub
 	}
 	@Override

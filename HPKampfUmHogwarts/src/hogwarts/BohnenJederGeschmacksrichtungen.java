@@ -7,7 +7,7 @@ import main.Player;
 public class BohnenJederGeschmacksrichtungen extends Card implements CardInterface {
 
 	public BohnenJederGeschmacksrichtungen() {
-		super(0, 1, 10);
+		super(0, 1, "BohnenJederGeschmacksrichtungen");
 		// TODO Auto-generated constructor stub
 	}
 	@Override

@@ -12,4 +12,8 @@ public class Board {
 	private Stack<CardInterface> boesewichtDeck;
 	private ArrayList<CardInterface> dunkleKuensteDiscard;
 	private ArrayList<CardInterface> boesewichtDiscard;
+	
+	public Board() {
+		
+	}
 }

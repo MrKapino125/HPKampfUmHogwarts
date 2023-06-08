@@ -7,7 +7,7 @@ import main.Player;
 public class Tarnumhang extends Card implements CardInterface{
 
 	public Tarnumhang() {
-		super(0, 1, 7);
+		super(0, 1, "Tarnumhang");
 		// TODO Auto-generated constructor stub
 	}
 

@@ -7,7 +7,7 @@ import main.Player;
 public class Zeitumkehrer extends Card implements CardInterface {
 
 	public Zeitumkehrer() {
-		super(0, 1, 9);
+		super(0, 1, "Zeitumkehrer");
 		// TODO Auto-generated constructor stub
 	}
 

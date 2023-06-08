@@ -9,14 +9,12 @@ public class Card implements CardInterface {
 	protected int price;
 	protected int typeID;
 	protected String type;
-	protected int renderID;
-	protected static int width = 250;
-	protected static int height = 250;
+	protected String name;
 	
-	public Card(int price, int typeID, int renderID) {
+	public Card(int price, int typeID, String name) {
 		this.price = price;
 		this.typeID = typeID;
-		this.renderID = renderID;
+		this.name = name;
 		if (typeID == 0)
 			type = "Spruch";
 		if (typeID == 1)
@@ -27,8 +25,8 @@ public class Card implements CardInterface {
 	public void discard(Player[] players) {
 		
 	}
-	public void draw(Graphics g, int posX, int posY) {
-		g.drawImage(Assets.enemies.get(this.renderID), posX, posY, null);
+	public void render(Graphics g, int posX, int posY) {
+		g.drawImage(Assets.cards.get(this.name), posX, posY, null);
 	}
 	public void use(Player[] players) {
 		

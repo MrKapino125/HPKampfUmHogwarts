@@ -7,7 +7,7 @@ import main.Player;
 public class Pigwidgeon extends Card implements CardInterface{
 
 	public Pigwidgeon() {
-		super(0, 2, 11);
+		super(0, 2, "Pigwidgeon");
 		// TODO Auto-generated constructor stub
 	}
 	@Override
