@@ -1,15 +1,12 @@
 package hogwarts;
 
+import java.awt.Graphics;
+
 import cards.Card;
-import cards.CardInterface;
 import main.Player;
 
-public class Pigwidgeon extends Card implements CardInterface{
+public class Pigwidgeon extends Card {
 
-	public Pigwidgeon() {
-		super(0, 2, "Pigwidgeon");
-		// TODO Auto-generated constructor stub
-	}
 	@Override
 	public void use(Player[] players) {
 		int choice = 0; // prompt player
@@ -17,5 +14,23 @@ public class Pigwidgeon extends Card implements CardInterface{
 			players[0].giveLightning(1);
 		if (choice == 1)
 			players[0].giveHearts(2);
+	}
+
+	@Override
+	public void render(Graphics g, int posX, int posY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int type() {
+		// TODO Auto-generated method stub
+		return 2;
+	}
+
+	@Override
+	public int price() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }

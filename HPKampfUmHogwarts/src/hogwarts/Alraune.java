@@ -1,15 +1,11 @@
 package hogwarts;
 
+import java.awt.Graphics;
+
 import cards.Card;
-import cards.CardInterface;
 import main.Player;
 
-public class Alraune extends Card implements CardInterface {
-
-	public Alraune() {
-		super(0, 1, "Alraune");
-		// TODO Auto-generated constructor stub
-	}
+public class Alraune extends Card {
 
 	@Override
 	public void use(Player[] players) {
@@ -20,6 +16,22 @@ public class Alraune extends Card implements CardInterface {
 			int pick = 0; // prompt
 			players[pick].giveHearts(2);
 		}
+	}
+
+	@Override
+	public void render(Graphics g, int posX, int posY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int type() {
+		// TODO Auto-generated method stub
+		return 1;
+	}
+
+	public int price() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
